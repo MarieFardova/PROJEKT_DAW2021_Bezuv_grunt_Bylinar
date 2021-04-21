@@ -21,13 +21,6 @@ body {
   padding: 1rem;
 }
 
-.bylinar__bylina {
-  width: 30%;
-  border-radius: 0.5rem;
-  margin: 2 rem;
-  box-shadow: #4d4d4d 4px 6px 20px;
-}
-
 h3 {
   text-decoration: underline;
   font-size: 1.5rem;
@@ -35,6 +28,11 @@ h3 {
 
 div {
   margin: 1rem;
+}
+
+.poznamka__podtrzeni {
+  text-decoration: underline;
+  margin-bottom: 0;
 }
 
 .BG__uvodni-fotky {
@@ -51,4 +49,27 @@ div {
   margin: 0.5vw;
   padding: 0.2vw;
   box-shadow: #4d4d4d 4px 6px 20px;
+}
+
+.BG__text--detaily {
+  margin-bottom: 2.5rem;
+}
+
+.bylinar__bylina--obr {
+  width: 30%;
+  border-radius: 0.5rem;
+  box-shadow: #4d4d4d 4px 6px 20px;
+}
+
+.bylinar {
+  margin: 2rem;
+}
+
+p {
+  text-align: left;
+  margin-top: 0;
+}
+
+.poznamka__text {
+  font-size: small;
 }
