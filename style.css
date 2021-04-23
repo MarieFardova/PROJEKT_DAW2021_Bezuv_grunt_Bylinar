@@ -73,3 +73,32 @@ p {
 .poznamka__text {
   font-size: small;
 }
+
+.BG__obrazek,
+.bylinar__bylina--obr {
+  width: 3rem;
+  height: 3rem;
+}
+
+@media only screen and (max-width: 550px) {
+  .BG__uvodni-fotky {
+    display: grid;
+    justify-items: center;
+    margin: 50px;
+  }
+  .BG__obrazek {
+    grid-column: auto;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .bylinar {
+    display: grid;
+    justify-items: center;
+    margin: 50px;
+  }
+  .bylinar__bylina--obr {
+    grid-column: auto;
+    margin: 10px;
+  }
+}
